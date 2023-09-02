@@ -60,3 +60,17 @@ console.log(`It is super ${weather.repeat(3)}`);
 // Call a different built-in JavaScript method on each of your variables. 
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 // Include comments above each method call explaining the impact and return value of that method.
+
+var dogs = ["poodle", "labrador", "retriever", "hound"];
+console.log(dogs.sort());
+// The sort method is called on the variable dogs, which is an array of strings containing 4 elements
+// The sort method functions within string arrays to put the string in alphabetical order
+// The console.log() statement prints the array with the strings rearranged in alphabetical order to the console.
+// The expected return is ['hound', 'labrador', 'poodle', 'retriever']
+
+var countDown = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+console.log(countDown.reverse());
+// The reverse method is called on the variable countDown, which is an array of numbers containing 11 elements
+// The reverse method reverses the order of the numbers within the string
+// The console.log() statement prints the array to the console in reverse order
+// The expected return is [10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
