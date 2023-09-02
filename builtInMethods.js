@@ -3,20 +3,28 @@
 // Then, in a comment, write 1-2 sentences describing what is happening, using ALL the involved vocabulary terms you've learned in this lesson so far.
 
 // EXAMPLE
+"Hello World".toLowerCase();
 // The toLowerCase() method is called on the string "Hello World"
 // No arguments are passed; toLowerCase() has one clear job which is to lowercase all letters that exist in the String
 // The return value is "hello world"
-"Hello World".toLowerCase();
-
 
 "Hello World".includes("Hello");
-
+// The includes() method is called on the string "Hello World"
+// An argument is passed containing the string "Hello"
+// Includes() has the job of checking if the argument is included somewhere within the string but does not clarify where
+// The return value is "true"
 
 "Hello World".endsWith("Hello");
-
+// The endsWith() method is called on the string "Hello World"
+// An argument is passed containing the string "Hello"
+// endsWith() has the job of checking if the argument exactly matches the end of the string
+// The return value is "false"
 
 "Hello World".endsWith("rld");
-
+// The endsWith() method is called on the string "Hello World"
+// An argument is passed containing the string "rld"
+// endsWith() has the job of checking if the argument exactly matches the end of the string
+// The return value is "true"
 
 
 // SECTION 2: Calling methods on variables assigned to strings.
