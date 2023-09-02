@@ -34,14 +34,26 @@
 // Include comments above each method call explaining the impact and return value of that method.
 
 // EXAMPLE
+var firstName = "Jeff";
+console.log(firstName.startsWith("J"));
 // The startsWith() method is called on the firstName variable, which stores the string object "Jeff". 
 // The startsWith() method returns true if the data in the firstName variable starts with the argument passed in.
 // In this example, the return value is true, because "Jeff" does start with "J".
 // The console.log() statements prints the return value of the startsWith() method (true) to the console.
-var firstName = "Jeff";
-console.log(firstName.startsWith("J"));
 
+var stringLength = "How many characters?"
+console.log(stringLength.length)
+// The length method is called on the stringLength variable, which stores the string "How many characters?" 
+// The return value of the length method is equal to the number of characters in the length of the string being stored as the variable
+// In this example, the return value is 20 because that is the number of characters in "How many characters?"
+// The console.log() statement prints the return value of the length method to the console.
 
+var weather = 'rainy! ';
+console.log(`It is super ${weather.repeat(3)}`);
+// The repeat method is called on the weather variable, which stores the string 'rainy! '
+// The weather variable is interpolated within the console.log function
+// The repeat method causes the weather variable to repeat as many times as the number passed as an argument (in this case, 3)
+// The console.log() statement prints a string with the weather variable repeated 3 times within that string
 
 // SECTION 3: Calling methods on variables assigned to arrays.
 // Declare 2 variables assigned to arrays.
